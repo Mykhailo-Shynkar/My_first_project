@@ -1,0 +1,84 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    position: relative;
+    width: 1441.89px;
+    margin: 0 auto;
+    background: url(/image/Backgroundrth.png) 50% no-repeat;
+}
+
+button{
+    height: 37px;
+    width: 130px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 122px;
+}
+
+h1{
+    font-family: 'TRY Vesterbro', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 999;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0 20px;
+}
+
+main{
+    width: 1441.09px;
+    height: 400px;
+    
+}
+
+.login{
+    background: #1A1A1A;    
+    color: #FFF;
+    border: 1px solid #FFFFFF;
+
+}
+
+.loginButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;  
+    font-family: 'IBM Plex Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;  
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+
+.signUp{
+    background: #FFFFFF;    
+    color: #1A1A1A;
+    margin-right: 15px;
+}
+
